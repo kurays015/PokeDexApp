@@ -115,16 +115,14 @@ aside div {
   color: rgb(169, 166, 166);
   
 }
-.cards img,
-.page-load-cards img {
+.poke-img {
   width: 200px;
   height: 200px;
   transition: .2s ease-in-out;
   cursor: pointer;
 }
 
-.cards img:hover,
-.page-load-cards img:hover {
+.poke-img:hover {
   transform: scale(1.1);
 }
 
