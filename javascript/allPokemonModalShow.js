@@ -16,6 +16,7 @@ async function allPokemonModalShow(pokemonImg, pokemonsData) {
       //add class animation to modal
       allCardsModal.classList.add('zoom-in')
 
+      console.log(pokemonAbilitiesData)
 
       //abilities array loop
       // const abilities = pokemonAbilitiesData.abilities;
@@ -61,12 +62,13 @@ async function allPokemonModalShow(pokemonImg, pokemonsData) {
 
                   <div class="abilities-container"
                       data-aos="fade-down"
-                      data-aos-easing="linear"
                       data-aos-duration="1000">
                     <h1>Abilities</h1>
-                      <p class="ability-name">${abilities[0].ability.name}, ${abilities[1].ability.name}</p>
+                      <p class="ability-name">${abilityData.name}</p>
                       <p class="effect">${effect_entries[1].effect}</p> 
-                      <div class="moves">Pokemon Moves</div>                     
+                      <div 
+                      data-aos="fade-left"
+                      data-aos-duration="1000" class="moves">Pokemon Moves</div>                     
                   </div>
                 </div>
 
