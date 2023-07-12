@@ -119,7 +119,7 @@ aside div {
 .page-load-cards img {
   width: 200px;
   height: 200px;
-  transition: .2s ease;
+  transition: .2s ease-in-out;
   cursor: pointer;
 }
 
