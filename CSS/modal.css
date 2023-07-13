@@ -7,9 +7,7 @@
   outline: none;
   background: linear-gradient(to bottom right, #1A4360, #40557C, #696795, #9478AA, #C089B9, #EC9BC3);
   border-radius: 6px;
-  
-  
-
+  overflow: hidden;
 }
 
 ::backdrop {
