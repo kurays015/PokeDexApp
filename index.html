@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PokéDex</title>
     <!--Linked CSS-->
+    <link rel="icon" type="svg" href="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/modal.css">
     <link rel="stylesheet" href="CSS/style.css">
@@ -15,9 +16,7 @@
   <body>
 
     <header>
-      <a href="index.html">
         <img class="pokemon-svg" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg" width="50px">
-      </a> 
       <nav>
         <ul>
           <li> <a href="#">Generate Random Pokemon</a></li>
@@ -190,7 +189,8 @@
         <dialog class="fetchTypeModal"></dialog>
         <dialog class="pokeSearchModal"></dialog>
 
-        <!-- hide for the mean time -->
+
+        <!-- Hide Temporary -->
         <button type="submit" class="select-pokemon">Generate Your Starter Pokemon!</button>
         <button class="stop">Stop</button>
     
@@ -202,20 +202,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.0/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
 
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
+    
 
     <!-- JS files -->
-    <script src="javascript/displayAll-Modal.js.js"></script>
+    <script src="javascript/displayAll-Modal.js"></script>
     <script src="javascript/showPokemonTeamModal.js"></script>
     <script src="javascript/pokemon-backgroundColors.js"></script>
     <script src="javascript/poke-search.js"></script>
-    <!-- <script src="test.js"></script> -->
     <script src="javascript/fetchAll-pokemonTypes.js"></script>
+    <!-- <script src="test2.js"></script> -->
     <script src="javascript/displayAllPokemon.js"></script>
     <script src="javascript/choose-random-pokemon.js"></script>
 
-
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    
   </body>
 </html>
