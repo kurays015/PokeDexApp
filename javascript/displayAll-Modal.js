@@ -1,8 +1,8 @@
 const displayAllModal = document.querySelector('.displayAllModal');
-const alerts = document.querySelectorAll('.alert, .moves')
+const alertMessage = document.querySelectorAll('.alert, .moves')
 
-alerts.forEach(alert => {
-  alert.addEventListener('click', () => {
+alertMessage.forEach(message => {
+  message.addEventListener('click', () => {
   alert('DI KO PA TAPOS ITO HEHE');
   });
 });
