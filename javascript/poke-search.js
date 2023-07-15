@@ -97,7 +97,7 @@ async function pokemonSearchModal(pokemonAbilitiesData) {
               <p class="ability-name">${abilityName}</p>
               <p class="effect">${effect_entries[1].effect}</p> 
               <div           
-              class="moves">Pokemon Moves</div>                     
+              class="moves">Moves</div>                     
           </div>
         </div>
 
