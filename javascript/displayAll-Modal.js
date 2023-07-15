@@ -66,7 +66,7 @@ async function displayModal(pokemonAbilitiesData) {
             <h1>Abilities</h1>
               <p class="ability-name">${abilityName}</p>
               <p class="effect">${effect_entries[1].effect}</p> 
-              <div class="moves">Pokemon Moves</div>                     
+              <div class="moves">Moves</div>                     
           </div>
         </div>
 
