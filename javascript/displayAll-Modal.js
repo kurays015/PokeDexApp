@@ -1,5 +1,5 @@
 const displayAllModal = document.querySelector('.displayAllModal');
-const alertMessage = document.querySelectorAll('.alert, .moves')
+const alertMessage = document.querySelectorAll('.alert')
 
 alertMessage.forEach(message => {
   message.addEventListener('click', () => {
