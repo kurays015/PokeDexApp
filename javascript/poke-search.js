@@ -177,7 +177,7 @@ async function pokemonSearchModal(pokemonAbilitiesData) {
       move.addEventListener('click', () => {
         alert('DI KO PA TAPOS ITO HAHAHA')
       })
-    }
+    });
   });
 
 }
