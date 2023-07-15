@@ -3,7 +3,7 @@ const alertMessage = document.querySelectorAll('.alert')
 
 alertMessage.forEach(message => {
   message.addEventListener('click', () => {
-  alert('DI KO PA TAPOS ITO HEHE');
+  alert('DI KO PA TAPOS ITO HAHAHA');
   });
 });
 
@@ -147,6 +147,13 @@ async function displayModal(pokemonAbilitiesData) {
         displayAllModal.close();
       }, {once : true})
     });
+
+    const moves = document.querySelectorAll('.moves');
+    moves.forEach(move => {
+      move.addEventListener('click', () => {
+        alert('DI KO PA TAPOS ITO HAHAHA)
+      })
+    }
   });
 }
 
