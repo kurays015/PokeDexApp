@@ -171,6 +171,13 @@ async function pokemonSearchModal(pokemonAbilitiesData) {
         pokeSearchModal.close();
       }, {once : true})
     });
+  
+    const moves = document.querySelectorAll('.moves');
+    moves.forEach(move => {
+      move.addEventListener('click', () => {
+        alert('DI KO PA TAPOS ITO HAHAHA)
+      })
+    }
   });
 
 }
