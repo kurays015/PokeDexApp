@@ -1,8 +1,10 @@
 const displayAllModal = document.querySelector('.displayAllModal');
-const alert = document.querySelectorAll('.alert, .moves')
+const alertS = document.querySelectorAll('.alert, .moves')
 
-alert.addEventListener('click', () => {
-  alert('DI KO PA TAPOS ITO HEHE')
+alerts.forEach(alert => {
+  alert.addEventListener('click', () => {
+  alert('DI KO PA TAPOS ITO HEHE');
+  });
 });
 
 async function allPokemonModalShow(pokemonImg, pokemonsData) {
