@@ -153,7 +153,7 @@ async function displayModal(pokemonAbilitiesData) {
       move.addEventListener('click', () => {
         alert('DI KO PA TAPOS ITO HAHAHA')
       })
-    }
+    });
   });
 }
 
