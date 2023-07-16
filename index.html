@@ -7,13 +7,29 @@
     <!--Linked CSS-->
     <link rel="icon" type="svg" href="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/loader.css">
     <link rel="stylesheet" href="CSS/modal.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/pokemon-types-logo.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      
+
+    </style>
   </head>
   <body>
+
+    <!-- Loading screen -->
+    <div class="loader-container" id="loaderContainer">
+      <div class="loader">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </div>
+    </div>
+    
 
     <header>
         <img class="pokemon-svg" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg" width="50px">
@@ -25,6 +41,8 @@
       </nav>
     </header>
     
+    
+
     <main>
       <aside>
         <div class="search-and-home">
@@ -171,8 +189,11 @@
       
 
         <div class="container"></div>
-
+      
         <div class="rendered-pokemons"></div>
+      
+        <a href="#" class="back-icon"><i class="fa-solid fa-arrow-left-long long-arrow"></i></a>
+      
         <div class="pokemons-container"></div>
 
         <dialog  class="modal">
@@ -190,27 +211,22 @@
         <dialog class="pokeSearchModal"></dialog>
 
 
-        <!-- Hide Temporary -->
         <button type="submit" class="select-pokemon">Generate Your Starter Pokemon!</button>
         <button class="stop">Stop</button>
     
     </main>
 
-
-    
     <!-- screenshot library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.0/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
 
-    
-
     <!-- JS files -->
+    <script src="javascript/loader.js"></script>
     <script src="javascript/displayAll-Modal.js"></script>
     <script src="javascript/showPokemonTeamModal.js"></script>
     <script src="javascript/pokemon-backgroundColors.js"></script>
     <script src="javascript/poke-search.js"></script>
     <script src="javascript/fetchAll-pokemonTypes.js"></script>
-    <!-- <script src="test2.js"></script> -->
     <script src="javascript/displayAllPokemon.js"></script>
     <script src="javascript/choose-random-pokemon.js"></script>
 
