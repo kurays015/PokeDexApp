@@ -3,7 +3,7 @@ const fetchTypeModal = document.querySelector('.fetchTypeModal');
 const allPokemons = async () => {
 
   try {
-    const response = await fetch('https://pokeapi.co/api/v2/pokemon/?limit=100')
+    const response = await fetch('https://pokeapi.co/api/v2/pokemon/?limit=1281')
     const data = await response.json()
     filterPokemon(data.results)
     pokemonAbilitiesData(data.results)
