@@ -3,7 +3,7 @@ const fetchTypeModal = document.querySelector('.fetchTypeModal');
 const allPokemons = async () => {
 
   try {
-    const response = await fetch('https://pokeapi.co/api/v2/pokemon/?limit=1281')
+    const response = await fetch('https://pokeapi.co/api/v2/pokemon/?limit=100')
     const data = await response.json()
     filterPokemon(data.results)
     pokemonAbilitiesData(data.results)
@@ -270,8 +270,7 @@ const filteredTypes = async (filtered) => {
    const moves = document.querySelectorAll('.moves');
    moves.forEach(move => {
      move.addEventListener('click', () => {
-       alert('Not done yet')
+       alert('DI KO PA TAPOS ITO HAHAHA')
      })
    });
 }
-
