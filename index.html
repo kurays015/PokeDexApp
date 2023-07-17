@@ -35,12 +35,13 @@
         <img class="pokemon-svg" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg" width="50px">
       <nav>
         <ul>
-          <li> <a href="#" class="alert">Generate Random Pokemon</a></li>
+          <li> <a href="pokemon-game.html" class="alert">Who's that Pokémon?</a></li>
+          <li> <a href="#" class="alert">Pokemon Generations</a></li>
           <li> <a href="#" class="alert">About</a></li>
         </ul>
       </nav>
     </header>
-    
+   
     
 
     <main>
@@ -183,18 +184,18 @@
         </div>    
         
         <div class="add-to-team">
-          <h5 class="pokemon-count"></h5>
+          <div class="poke-ball-container">
+            <h5 class="pokemon-count"></h5>
+            <img class="pokeball-icon" src="https://pokemon.gisketch.com/assets/pokeball-5f24c66a.png">
+          </div>
+           
         </div>
       </aside>
       
-
-        <div class="container"></div>
-      
         <div class="rendered-pokemons"></div>
-      
         <a href="#" class="back-icon"><i class="fa-solid fa-arrow-left-long long-arrow"></i></a>
-      
-        <div class="pokemons-container"></div>
+        <div class="pokemons-container">
+        </div>
 
         <dialog  class="modal">
           <i class="fa-regular fa-circle-xmark modal-exit"></i> 
@@ -209,16 +210,16 @@
         <dialog class="displayAllModal"></dialog>
         <dialog class="fetchTypeModal"></dialog>
         <dialog class="pokeSearchModal"></dialog>
-
-
-        <button type="submit" class="select-pokemon">Generate Your Starter Pokemon!</button>
-        <button class="stop">Stop</button>
-    
+ 
     </main>
 
+
+    
     <!-- screenshot library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.0/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+
+    
 
     <!-- JS files -->
     <script src="javascript/loader.js"></script>
@@ -236,3 +237,4 @@
     
   </body>
 </html>
+
