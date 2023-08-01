@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Pokémon!</title>
+    <link rel="stylesheet" href="CSS/randompokemon.css">
+    <link rel="stylesheet" href="CSS/game-responsive.css">
+    <style>
+   
+    </style>
+  </head>
+  <body>
+
+  <header>
+    <!-- Hamburger icon -->
+    <div class="hamburger-menu">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+    <div class="life">
+      <div class="leaderboard">Leaderboard</div>
+
+      
+      <div class="life-container">
+        <h1>Life</h1>
+        <img class="firstLife" src="https://pokemon.gisketch.com/assets/pokeball-5f24c66a.png" width="30px">
+        <img class="secondLife" src="https://pokemon.gisketch.com/assets/pokeball-5f24c66a.png" width="30px">
+        <img class="thirdLife" src="https://pokemon.gisketch.com/assets/pokeball-5f24c66a.png" width="30px">
+      </div>
+
+    </div>
+  </header>
+
+    <main>
+
+      <div class="loading">
+        <img class="pokemon-logo" src="pokeball.png">
+      </div>
+      
+      <section>
+        <dialog class="gameOverModal">
+          <div>
+            <h1>Congratulations, You got</h1>
+            <p class="modalScore">0</p>
+            <button id="tryAgain">Try again</button>
+          </div>
+        </dialog>
+      </section>
+    
+      <section class="buttons-container">
+        <button class="generation">Generation 1</button>
+        <button class="generation">Generation 2</button>
+        <button class="generation">Generation 3</button>
+        <button class="generation">Generation 4</button>
+        <button class="generation">Generation 5</button>
+        <button class="generation">Generation 6</button>
+        <button class="generation">Generation 7</button>
+        <button class="generation">Generation 8</button>
+      </section>
+
+
+      <section class="scoreAndImg">
+        
+        <p class="score">0</p>
+        <div class="container"></div>
+
+      </section>
+
+      <section class="choices">
+        <button class="choices1">Choice 1</button>
+        <button class="choices2">Choice 2</button>
+        <button class="choices3">Choice 3</button>
+      </section>
+
+      <!--mobile only-->
+      <div class="scoreDisplay">
+        <div class="points">0</div>
+        <p>score</p>
+      </div>
+
+
+    </main>
+
+    <script src="javascript/cleaning code/game.js"></script>
+  </body>
+</html>
